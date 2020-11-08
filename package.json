@@ -1,0 +1,36 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "Gulp v4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "gulp --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaferkaymak/gulp"
+  },
+  "keywords": [
+    "gulp",
+    "gulp project",
+    "gulp v4",
+    "gulp4"
+  ],
+  "author": "Zafer Kaymak",
+  "license": "",
+  "dependencies": {
+    "concat": "^1.0.3",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject-string": "^1.1.2",
+    "gulp-mode": "^1.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "run-sequence": "^2.2.1"
+  }
+}
